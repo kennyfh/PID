@@ -18,16 +18,16 @@ en escala de grises.
 """
 b,g,r = cv2.split(img) # Dividimos la imagen en los tres canales
 
-cv2.imshow('Azul',b)
+cv2.imshow('B',b)
 cv2.waitKey(0)
 """
 cv2.waitkey(x) es una función de enlace de teclado. Su argumento es el tiempo en milisegundos. La función espera milisegundos especificados para cualquier evento de teclado. 
 Si presiona cualquier tecla en ese tiempo, el programa continúa. Si se pasa 0, espera indefinidamente una pulsación de tecla.
 """
-cv2.imshow('Verde',g)
+cv2.imshow('G',g)
 cv2.waitKey(0)
 
-cv2.imshow('Rojo',r)
+cv2.imshow('R',r)
 cv2.waitKey(0)
 
 cv2.destroyAllWindows()
