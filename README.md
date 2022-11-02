@@ -1,2 +1,2 @@
 # PID
-Procesamiento de Imágenes Digitales
+Digital image processing
